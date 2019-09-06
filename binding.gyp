@@ -1,12 +1,12 @@
 {
     "targets": [{
-        "target_name": "testaddon",
+        "target_name": "nodejs_mmbl",
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
-            "cppsrc/main.cpp",
-			"cppsrc/main.cpp",
-            "cppsrc/functionexample.cpp"
+            "src/cppsrc/main.cpp",
+			"src/cppsrc/main.cpp",
+            "src/cppsrc/functionexample.cpp"
         ],
         'include_dirs': [
             "<!@(node -p \"require('node-addon-api').include\")"

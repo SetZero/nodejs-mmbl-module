@@ -1,3 +1,7 @@
 node_modules
 *.log
 build
+.idea/
+.idea/**
+
+cmake-build-debug/

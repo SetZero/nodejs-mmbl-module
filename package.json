@@ -1,8 +1,8 @@
 {
-  "name": "test-addon",
+  "name": "nodejs_mmbl",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "node-gyp rebuild",
